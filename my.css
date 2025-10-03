@@ -1,0 +1,43 @@
+@media only screen and (max-width: 600px){
+    body{
+        background-color:rgba(143, 191, 199, 0.5)!important;
+        font-size: 14px;
+    }
+    .container{
+        width: 100%;
+        padding: 10px;
+    }      
+    header{
+        font-size: 18px;
+        text-align: center;
+        padding: 10px 0;
+        font-weight:lighter;
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+    
+}
+
+@media only screen and (min-width: 600px){
+    body{
+        background-color:rgba(136, 197, 135, 0.5)!important;
+        font-size: 20px;
+    }
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    } 
+    header{
+        font-size: 30px;
+        font-weight:bold;
+        text-align: left;
+        padding: 20px 0;
+    }
+    img{
+        max-width: 600px;
+        height: auto;
+    }
+}
